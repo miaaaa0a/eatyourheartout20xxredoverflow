@@ -1,0 +1,27 @@
+.countdown {
+    font-weight: bolder;
+}
+
+.smol {
+    font-size: medium;
+}
+.maindiv {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.twtbtn {
+    width: 25%;
+}
+
+.rouxlink {
+    background: linear-gradient(to right, #3358ff 0%, #ba24ff 100%);
+    background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
