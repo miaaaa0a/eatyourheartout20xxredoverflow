@@ -1,5 +1,6 @@
 .countdown {
     font-weight: bolder;
+    font-size: 4vw;
 }
 
 .smol {
@@ -39,4 +40,13 @@
 .card {
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.codebtn {
+    margin-top: 10px;
+    position: relative;
+    transform: translate(0, 800%);
+    margin-bottom: 10px;
 }
