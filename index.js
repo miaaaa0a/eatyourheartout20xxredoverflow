@@ -39,6 +39,9 @@ if (getParameterByName('embed') == 'true') {
         //remove element
         removeinembed[i].parentNode.removeChild(removeinembed[i]);
     }
+    //change style of class "smol" to "font-size: 1.5vw;"
+    var smol = document.getElementsByClassName('smol');
+    smol[0].style.fontSize = '1.5vw';
 }
 
 if (typeof(codebtn) != 'undefined' && codebtn != null) {
